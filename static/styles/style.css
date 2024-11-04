@@ -1,0 +1,9 @@
+@import './fonts.css';
+
+body {
+    font-family: Roboto;
+}
+
+.text {
+    font-weight: 700;
+}
