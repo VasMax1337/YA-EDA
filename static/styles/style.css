@@ -3,13 +3,31 @@
 body {
     width: 1920px;
     font-family: Roboto;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 .header {
+    padding-top: 20px;
+    height: 867px;
+    background: url(../images/headr-backgraund.jpg) no-repeat right;
+    
+}
+
+.header-label {
     width: 680px;
     height: 80px;
-    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
+
+.container {
+    padding: 0 340px;
+}
+
+
 
 /*.main {
 
@@ -34,7 +52,9 @@ body {
 }
 
 .logo-icon {
-    width: 45px;
+    width: 211px;
+    height: 70px;
+
 
 }
 
@@ -46,18 +66,15 @@ body {
 }
 
 .button {
+    border: none;
+    background-color: #ffffff;
     width: 193px;
     height: 52px;
-    background-color: #ffffff;
+    cursor: pointer;
     border-radius: 5px;
-    /*border: none;*/
-    float: right;
-    font-size: 24px;
     font-weight: 400;
+    font-size: 24px;
+
+
 }
 
-.logo-subtitle {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 20px;
-}
