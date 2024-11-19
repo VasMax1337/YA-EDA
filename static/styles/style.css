@@ -3,22 +3,31 @@
 body {
     width: 1920px;
     font-family: Roboto;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 .header {
+    padding-top: 20px;
+    height: 867px;
+    background: url(../images/headr-backgraund.jpg) no-repeat right;
+    
+}
+
+.header-label {
     width: 680px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 
 }
 
 .container {
-    padding: 0 340;
+    padding: 0 340px;
 }
+
+
 
 /*.main {
 
@@ -69,8 +78,3 @@ body {
 
 }
 
-.logo-subtitle {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 20px;
-}
